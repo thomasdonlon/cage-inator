@@ -14,7 +14,7 @@ for i in range(num_cells):
 
     #allow user to input 'x' for all numbers 1-9
     if cell_options_input.strip().lower() == 'x':
-        cell_options_input = '1,2,3,4,5,6,7,8,9'
+        cell_options_input = [1,2,3,4,5,6,7,8,9]
     else:
         cell_options_input = list(map(int, cell_options_input.split(',')))
     cell_options_list.append(cell_options_input)
