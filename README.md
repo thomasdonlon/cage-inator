@@ -5,6 +5,8 @@
 ```
 Ever find yourself writing out possible combinations for the "cage" rule in sudoku puzzles? Let **The Cage-inator** handle that for you. (A cage is a region of cells in a Sudoku puzzle that must sum to the given number without repeating any digits.)
 
+Don't worry, **The Cage-inator** doesn't solve the puzzle for you. It would never deny you that fun. Instead, **The Cage-inator** provides you with the information and valid options for one specific cage. 
+
 ### Usage:
 Run the included .py file. Fill out the inputs as prompted, and watch as **The Cage-inator** works its mystifying and awesome power. 
 
