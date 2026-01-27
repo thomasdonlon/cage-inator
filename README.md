@@ -19,6 +19,13 @@ The cage highlighted in red has a sum of 3, and all numbers are allowed. You wou
 
 **The Cage-inator** will then return the list of all possible solutions for that cage: 
 ```
+Welcome to the Cage-inator!
+Enter the cage sum: 3
+Enter the number of cells in the cage: 2
+Note: You can enter "x" to indicate all numbers 1-9 are possible for that cell.
+Enter the possible valid entry numbers for cell 1 (comma-separated): x
+Enter the possible valid entry numbers for cell 2 (comma-separated): x
+Valid combinations found:
 [1,2]
 [2,1]
 ```
