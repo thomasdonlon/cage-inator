@@ -3,13 +3,20 @@
 # Input the cage sum, the number of cells, and the possible valid entry numbers within each cell in the cage
 # Then test all combinations of numbers to find valid solutions
 
+print("Welcome to the Cage-inator!")
 cage_sum = int(input("Enter the cage sum: "))
 num_cells = int(input("Enter the number of cells in the cage: "))
 
 cell_options_list = []
+print('Note: You can enter "x" to indicate all numbers 1-9 are possible for that cell.')
 for i in range(num_cells):
     cell_options_input = input(f"Enter the possible valid entry numbers for cell {i+1} (comma-separated): ")
-    cell_options_input = list(map(int, cell_options_input.split(',')))
+
+    #allow user to input 'x' for all numbers 1-9
+    if cell_options_input.strip().lower() == 'x':
+        cell_options_input = '1,2,3,4,5,6,7,8,9'
+    else:
+        cell_options_input = list(map(int, cell_options_input.split(',')))
     cell_options_list.append(cell_options_input)
 
 #build the combination tree
