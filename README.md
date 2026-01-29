@@ -33,9 +33,9 @@ Welcome to the Cage-inator!
 Enter the cage sum: 9
 Enter the number of cells in the cage: 3
 Note: You can enter "x" to indicate all numbers 1-9 are possible for that cell.
-Enter the possible valid entry numbers for cell 1 (comma-separated): 1,2,3,6,7,8
-Enter the possible valid entry numbers for cell 2 (comma-separated): 1,3,6,7,8
-Enter the possible valid entry numbers for cell 3 (comma-separated): 1,3,4,6,7,8
+Enter the possible valid entry numbers for cell 1 (no separation): 123678
+Enter the possible valid entry numbers for cell 2 (no separation): 13678
+Enter the possible valid entry numbers for cell 3 (no separation): 134678
 Valid combinations found:
 [2, 1, 6]
 [2, 3, 4]
